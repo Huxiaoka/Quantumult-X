@@ -4,7 +4,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 Surge 4.0+:
 [Script]
-#东方头条cookie
+#东方头条cookie 
 东方头条CK =script-path=dfttss.js,type=http-request,pattern=https:\/\/sign\.dftoutiao\.com\/sign\/news_take_s,requires-body=true,
 
 东方头条签到 = type=cron,cronexp=0 * * * * *,script-path=dfttss.js
